@@ -1,7 +1,7 @@
       ******************************************************************
-      * Author:
-      * Date:
-      * Purpose:
+      * Author: Lawrence Wilson II
+      * Date: 9/15/24
+      * Purpose: Stepping into Cobol!
       * Tectonics: cobc
       ******************************************************************
        IDENTIFICATION DIVISION.
