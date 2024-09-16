@@ -1,0 +1,48 @@
+Data Declaration in Cobol 
+
+Data categories of Data
+	Literals 
+	Figurative constants
+	Data items(Variables) 
+
+Literals are a data item that has the data item and the value itself 
+
+	Two types of literal
+	1.Numeric Literals 
+	2.Alphanumeric Literals 
+
+Alphanumeric Literals 
+  Ex: "William Murphy","1234","-123.3"
+Numeric Literals
+  Ex:  1234, 123.4, -123,+344
+  Numeric Literals are not enclosed in " "
+
+Data Items(Variables)
+
+Declaring Data items require three things
+
+Level number 01-77
+data-name or identifier
+a PICTURE clause 
+
+PIC A: an occurrence of any letter a-z
+PIC X: any character from the character set the corresponding position in the picture
+PIC 9(4): The 9 indicates  an occurance of a digit at a corresponding position
+
+
+   
+
+Ex: 01 SecondNum PIC 9 VALUE ZEROS.
+Ex: 01 SalesTaxRate CONSTANT AS .06
+
+
+
+
+
+
+
+
+
+
+      
+
