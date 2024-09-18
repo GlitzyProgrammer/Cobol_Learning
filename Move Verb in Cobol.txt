@@ -1,0 +1,16 @@
+Move Verb
+
+Limits 
+	Source and Destination can be either elementary or group data items 
+	
+	When "moved" what ever is in the destination is overwritten and source is undisturbed
+	
+	If the number of characters in the source item is too few then the destination would fill it with zeros
+	
+	Truncation takes place if the opposite problem occurs 
+	
+	When the destination item is alphanumeric or alphabetic data is copied in the destination area from
+left to right with space filling or truncation on the right.
+	
+	When the destination item is numeric or edited numeric data is aligned along the decimal point with zero-filling or truncation as needed. 
+	
