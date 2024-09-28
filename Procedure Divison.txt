@@ -1,0 +1,28 @@
+MetaLan Key 
+
+{} mean one of the options must be selected
+[] brackets mean the item is optional 
+... means the item  may be repeated at the programmer's discrection
+
+
+$ indicates aalphanumeric item
+# numeric value
+i indicatates that the item can be a variable identifier
+l indicates that the item can be a literal 
+
+ACCEPT verb
+   1. gets info from keyboard 
+   2. lets you get acces to system date and time on system clock 
+
+
+Format 1 
+
+ACCEPT ReceivingItems$#i[FROM Mnmonic-Name]
+
+Format 2
+
+ACCEPT RecivingItems$#iFROM{System time}
+
+Regarding the first format if the FROM is used it can be from any device/file but if the data the receiving item gets
+is too small then some of it will be lost or if too big some spaces will be put in. 
+The ought to be the name of the device. 
