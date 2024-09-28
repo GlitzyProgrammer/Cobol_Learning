@@ -22,6 +22,9 @@ Data Items(Variables)
 Declaring Data items require three things
 
 Level number 01-77
+      Level 66 is used to RENAME to a data-name or group of contigious data-names 
+      Level 77 is used to ID a a noncontiguous, single data item in the WORKOMG-STORAGE or LINKAGE section
+      Level 88 is used to implement condition nnames. 
 data-name or identifier
 a PICTURE clause 
 
