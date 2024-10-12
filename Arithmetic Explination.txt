@@ -1,0 +1,55 @@
+ADD Takings to CashTotal
+	Adds value in Takings to the value in CashTotal and puts the result in CashTotal
+
+ADD Males TO Females GIVING TotalStudents
+	Adds the value of Males to the value in Females and overwrites the value in TotalStudents with the result
+
+ADD Sales to ShopSales, CountySales, CountrySales
+	Adds the value of Sales to ShopSales and puts the result in ShopSales
+	   * repeat statement but replace ShopSales with CountrySales and CountrySales
+
+SUBTRACT Tax FROM GrossPay
+	Subtracts the value in Tax from the value in GrossPay and puts the result in GrossPay
+
+SUBTRACT Tax FROM GrossPay GIVING NetPay
+	Subtracts the value in Tax from the value in GrossPay and puts the result in NetPay
+
+DIVIDE Total BY Members GIVING MemberAVerage ROUNDED
+	Divides the value in Total by the value in Members and puts the rounded result in MemberAverage
+
+DIVIDE Members INTO Total GIVING MemberAverage
+	Divies the value in Members into the value in Total and puts the result in MemberAverage
+
+MULTIPLY 10 BY Magnitutude
+	Multiplies 10 by the value in Magnitutde and puts the result in Magnitude
+
+MULTIPLY Members BY Subs GIVING TotalSubs
+	Multiplies the value of Members by the value of Subs and puts the result in TotalSubs. 
+
+Phrase ROUNDED 
+
+After the decimal point on the least significant digit(right) the program will truncate and round the value 
+
+	EX  Actual result 342.736  received as PIC 999V99 First its truncated 342.73 then rounds 342.74
+	EX  Actual result 342.534  received as PIC 999  truncated as 342 then rounded 343
+
+ON SIZE ERROR
+
+Basically a error that shows up if the information computed is too big or small to fit into a receiving field 
+
+
+761.758 999V99   result is 761.75 Size error triggered
+1761     999  result is 761 size error triggered
+326.475 999V99 ROUNDED  result 326.48 No error triggered rounding was stated
+1326.475  99V99 ROUNDED result 326.48 Sizing error is triggered the 1 is truncated
+
+COMPUTE Verb
+
+	COMPUTE assigns the result of an arithmetic expression to a data item that use arthimetic signs
+
+
+
+
+
+
+
