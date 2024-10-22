@@ -1,0 +1,15 @@
+General Structure 
+
+IF {thing true} THEN 
+  {code if  thing is true}
+END-IF {}
+
+Condtional Types 
+
+Relation 
+	Like the usual = < > >= <= but no not but there is NOT
+
+When comparing values the values must be the same type  no string to numeric such and such
+
+
+You can do the conditional on Classes like numeric or alphabetic not in the Object Oriented sense  
