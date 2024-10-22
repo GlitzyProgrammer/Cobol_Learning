@@ -13,3 +13,8 @@ When comparing values the values must be the same type  no string to numeric suc
 
 
 You can do the conditional on Classes like numeric or alphabetic not in the Object Oriented sense  
+
+
+Setting things to TRUE
+  Follows this convention SET ConditionName TO TRUE 
+  useful for testing in my opinoin but for now I'll wont focus on this specifically 
